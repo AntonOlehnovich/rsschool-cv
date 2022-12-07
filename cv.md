@@ -10,3 +10,17 @@ My goal is to become a highly qualified and sought-after specialist in the labor
 >Not everyone can truly succeed in everything.
 >But success only comes with self-management and determination.
 ***
+### Skills and Proficiency:
+*   **Programming languages:**
+    *   C#;
+    *   PHP;
+    *   Java.
+*   **IDE:**
+    *   Visual Studio;
+    *   WebStorm;
+    *   Phpstorm;
+    *   PyCharm.
+*   **Design:**
+    *   Adobe Photoshop;
+    *   Adobe Illustrator.
+***
