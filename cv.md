@@ -1,15 +1,21 @@
 # Anton Aliakhnovich
+
 ***
+
 ### Contacts:
 1. **Email:** generato9999@mail.ru
 2. **Github:** https://github.com/AntonOlehnovich
 3. **Diskord:** Anton (@AntonOlehnovich)
+
 ***
+
 ### About me:  
 My goal is to become a highly qualified and sought-after specialist in the labor market.  
 >Not everyone can truly succeed in everything.
 >But success only comes with self-management and determination.
+
 ***
+
 ### Skills and Proficiency:
 *   **Programming languages:**
     *   C#;
@@ -23,7 +29,9 @@ My goal is to become a highly qualified and sought-after specialist in the labor
 *   **Design:**
     *   Adobe Photoshop;
     *   Adobe Illustrator.
+
 ***
+
 ### Code Example:
 ```
 using System;
@@ -44,7 +52,9 @@ public class HelloWorld
     }
 }
 ```
+
 ***
+
 # Education:
 * **Baranovichi State University:**
     * Faculty of Engineering - Department of Information Systems and Physical and Mathematical Disciplines.
@@ -52,7 +62,9 @@ public class HelloWorld
     * Sololearn: [HTML](https://www.sololearn.com/certificates/CT-ZBN9C4WL "HTML TUTORIAL").
     * Sololearn: [CSS](https://www.sololearn.com/certificates/CT-XCYL3IWP "CSS TUTORIAL").
     * Sololearn: [SQL](https://www.sololearn.com/certificates/CT-VWL9QSCB "SQL TUTORIAL").
+
 ***
+
 # Languages:
 * ***English*** - Beginner, Elementary;
 * ***Russian*** - Advanced;
