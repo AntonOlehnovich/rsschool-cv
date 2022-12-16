@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&family=Roboto:wght@100;500&family=Rubik+Gemstones&family=Rubik+Marker+Hatch&family=Rubik+Vinyl&display=swap');
+html,
+body
+{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #040008;
+}
+.container
+{
+    display: grid;
+    grid-template-rows: 50px 1fr 50px;
+    grid-gap: 10px;
+}
+
+/* Header */
+.head
+{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    background-color: rgb(20, 0, 66);
+    grid-auto-rows: minmax(50px, auto);
+}
+.nav-list
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none; 
+}
+.nav-link
+{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: .2s;
+}
+.about
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    letter-spacing: 1px;
+    color: rgb(230, 204, 255);
+    font-variant: small-caps;
+}
+.nav-item a {
+    color: #f1ff26;
+    text-decoration: none;  
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.3s;
+  }
+  .nav-item a:hover {
+    color: #ffffff;
+    border-color: #04f2fa;
+  }
+/* Header */
+
+
+
+/* Main */
+.main
+{
+    width: auto;
+    display: grid;
+    grid-template-areas: 
+    "in in"
+    "cont sm"
+    "sk cd"
+    "cs pr"
+    "edu lang";
+    grid-auto-rows: minmax(100px, auto);
+    grid-auto-columns: minmax(300px, auto);
+    grid-gap: 20px;
+    /*background-color: lightblue;*/
+    margin-left: 200px;
+    margin-right: 200px;
+}
+/* Main */
+
+/* Footer */
+.foot
+{
+    background-color: coral;
+    grid-auto-rows: minmax(50px, auto);
+}
+/* Footer */
+.inner
+{
+    display: grid;
+    grid-template-areas: "ph nm nm nm nm nm";
+    grid-area: in;
+    border-bottom: 10px solid rgb(98, 0, 110);
+    min-height: 300px;
+}
+.name
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*background-color: rgb(5, 102, 102);*/
+    grid-area: nm;
+}
+.name > h1 
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Rubik Vinyl', cursive;
+    color: darkred;
+}
+.name > p
+{
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Rubik Gemstones', cursive;
+    color: burlywood;
+}
+.photo
+{
+    /*background-color: rgb(176, 247, 247);*/
+    display: flex;
+    justify-content: center;
+    grid-area: ph;
+    align-items: center;
+    
+}
+
+.contacts
+{
+    /*background-color: goldenrod;*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: cont;
+    padding-bottom: 20px;
+}
+.summary
+{
+    /*background-color: rgb(240, 226, 190);*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: sm;
+}
+.skills
+{
+    /*background-color: rgb(88, 224, 9);*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: sk;
+}
+.code
+{
+    /*background-color: rgb(188, 231, 170);*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: cd;
+}
+.courses
+{
+    /*background-color: rgb(15, 34, 204);*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: cs;
+    padding-bottom: 20px;
+}
+.projects
+{
+    /*background-color: rgb(143, 164, 221);*/
+    border-bottom: 2px solid rgb(98, 0, 110);
+    grid-area: pr;
+}
+.education
+{
+    /*background-color: rgb(180, 23, 159);*/
+    grid-area: edu;
+}
+.lang
+{
+    /*background-color: rgb(240, 190, 231);*/
+    grid-area: lang;
+}
+.title
+{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #6f65ff;
+}
+.info
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px; 
+    letter-spacing: 1px;
+    color: rgb(230, 204, 255);;
+    font-variant: small-caps;
+    line-height: 30px;
+}
+.link
+{
+    color: #91f5f8;
+    text-decoration: none;  
+    border-bottom: 1px solid transparent;
+    transition: all ease-in-out 0.3s;
+}
+.link:hover
+{
+    color: white;
+    border-color: #04f2fa;
+}
+.loc
+{
+    list-style: square url(../img/location-dot-solid.png) inside;
+}
+.mail
+{
+    list-style: square url(../img/mail.png) inside;
+}
+.git
+{
+    list-style: square url(../img/github.png) inside;
+}
+.vk
+{
+    list-style: square url(../img/vk.png) inside;
+}
+.ds
+{
+    list-style: square url(../img/diskord.png) inside;
+}
+.skil-item
+{
+    list-style-image: url(../img/square-check-regular.png);
+    list-style-position: inside;
+}
+.text
+{
+    color: #86e6ae;
+}
+code
+{
+    color: rgb(235, 158, 190);;
+}
+.footer
+{
+    display: grid;
+    /*background-color: lightblue;*/
+    margin: auto;
+    grid-template-areas: 
+    "gn gn fl";
+    grid-auto-rows: minmax(50px, auto);
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.git-name
+{
+    /*background-color: rgb(180, 23, 159);*/
+    grid-area: gn;
+}
+.foot-logo
+{
+    /*background-color: rgb(11, 117, 167);*/
+    grid-area: fl;
+}
+.ft-list
+{
+    color: white;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none; 
+    align-items: center;
+}
+.ft-item2
+{
+    margin-left: 20px;
+}
+.ft-item2 > a
+{
+    transition: .2s;
+    color: white;
+    text-decoration: none;
+}
+.ft-item2 > a:hover
+{
+    color: blue;
+}
+.foot-logo
+{
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+.logo
+{
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+}
+pre
+{
+    white-space: pre-wrap;
+    margin: 0;
+    padding: 0;
+}
