@@ -208,27 +208,27 @@ body
 }
 .loc
 {
-    list-style: square url(/img/location-dot-solid.png) inside;
+    list-style: square url(../img/location-dot-solid.png) inside;
 }
 .mail
 {
-    list-style: square url(/img/mail.png) inside;
+    list-style: square url(../img/mail.png) inside;
 }
 .git
 {
-    list-style: square url(/img/github.png) inside;
+    list-style: square url(../img/github.png) inside;
 }
 .vk
 {
-    list-style: square url(/img/vk.png) inside;
+    list-style: square url(../img/vk.png) inside;
 }
 .ds
 {
-    list-style: square url(/img/diskord.png) inside;
+    list-style: square url(../img/diskord.png) inside;
 }
 .skil-item
 {
-    list-style-image: url(/img/square-check-regular.png);
+    list-style-image: url(../img/square-check-regular.png);
     list-style-position: inside;
 }
 .text
