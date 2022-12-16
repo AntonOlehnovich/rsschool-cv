@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>CV</title>
+</head>
+<body>
+    <div class="container">
+        <header class="head">
+            <div class="logo">
+                <a href="https://rs.school/#/"><img src="img/logo-rs.svg" alt="RSS Logo" height="40"></a>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacts">Contacts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#summary">Summary</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#code">Code</a>
+                    </li>
+                    <li class="nav-item">
+                         <a class="nav-link" href="#courses">Courses</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#lang">Language</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <div class="inner">
+            <div class="photo">
+                <img src="img/avatar.png" alt="My Photo" height="250">
+            </div>
+            <div class="name">
+                <h1>Anton Aliakhnovich</h1>
+                <p>FrontEnd Developer</p>
+            </div>
+            </div>
+            <div class="contacts" id="contacts">
+                <h2 class="title">Contacts</h2>
+                <ul class="info">
+                    <li class="loc">Baranovichi, Belarus</li>
+                    <li class="mail">Email: <a class="link" href="https://mail.ru/">generato9999@mail.ru</a></li>
+                    <li class="git">Github: <a class="link" href="https://github.com/AntonOlehnovich">AntonOlehnovich</a></li>
+                    <li class="vk">VK: <a class="link" href="https://vk.com/">Anton Olehnovich</a></li>
+                    <li class="ds">Diskord: <a class="link" href="https://discord.gg/gFnRh8Sudg">Anton (@AntonOlehnovich)</a></li>
+                </ul>
+            </div>
+            <div class="summary" id="summary">
+                <h2 class="title">Summary</h2>
+                <p class="about">Graduated from Baranovichi State University with a degree in software engineering. In the process of studying I studied such programming languages ​​as C++, C#, Java. Engaged in the development of desktop laboratory projects on Windows Forms. I decided to try myself in the field of front-end development, namely, to learn the basics of HTML, CSS and JavaScript for further professional growth.</p>
+            </div>
+            <div class="skills" id="skills">
+                <h2 class="title">Skills</h2>
+                <ul class="info">
+                    <li class="skil-item">Programming languages: <span class="text">C#, Java, C++</span></li>
+                    <li class="skil-item">Frameworks: <span class="text">Django</span></li>
+                    <li class="skil-item">Version Control: <span class="text">GIT, Github</span></li>
+                    <li class="skil-item">Graphics: <span class="text">Adobe Photoshop, Adobe Illustrator</span></li>
+                </ul>
+            </div>
+            <div class="code" id="code">
+                <h2 class="title">Code</h2>
+                <pre><code>
+using System;
+public class HelloWorld
+    {                    
+        public static void Main(string[] args)
+            {
+                int n = Convert.ToInt32(Console.ReadLine());
+                 Console.WriteLine("Rezult = {0}", factorial(n));
+            }
+        public static int factorial(int n)
+            {
+                if(n == 1 || n == 0)
+                    {
+                       return 1;
+                    }
+                       return factorial(n-1) * n;
+            }
+    }          
+                </code>
+                </pre>
+            </div>
+            <div class="courses" id="courses">
+                <h2 class="title">Courses</h2>
+                <ul class="info">
+                    <li class="skil-item">Sololearn: <a class="link" href="https://www.sololearn.com/certificates/CT-ZBN9C4WL">HTML</a></li>
+                    <li class="skil-item">Sololearn: <a class="link" href="https://www.sololearn.com/certificates/CT-XCYL3IWP">CSS</a></li>
+                    <li class="skil-item">Sololearn: <a class="link" href="https://www.sololearn.com/certificates/CT-VWL9QSCB">SQL</a></li>
+                    <li class="skil-item">Sololearn: <a class="link" href="https://www.sololearn.com/certificates/CT-MDGUYYVG">C#</a></li>
+                </ul>
+            </div>
+            <div class="projects" id="projects">
+                <h2 class="title">Projects</h2>
+                <ul class="info">
+                    <li class="skil-item"><a class="link" href="https://github.com/AntonOlehnovich/CampDream">CampDream</a></li>
+                    <li class="skil-item"><a class="link" href="https://github.com/AntonOlehnovich/Django-TorgShop">Django-TorgShop</a></li>
+                </ul>
+            </div>
+            <div class="education" id="education">
+                <h2 class="title">Education</h2>
+                <p class="about">Baranovichi State University</p>
+            </div>
+            <div class="lang" id="lang">
+                <h2 class="title">English</h2>
+                <p class="about">Beginner, Elementary</p>
+            </div>
+        </main>
+        <footer class="foot">
+            <div class="footer">
+                <div class="git-name">
+                    <ul class="ft-list">
+                    <li class="ft-item1">
+                        @ 2022
+                    </li>
+                    <li class="ft-item2">
+                        <a href="https://github.com/AntonOlehnovich">AntonOlehnovich</a>
+                    </li>
+                </ul>
+                </div>
+                <div class="foot-logo">
+                    <a href="https://rs.school/js-stage0/"><img src="img/rsschool.svg" alt="RSS Logo" height="30"></a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
